@@ -31,9 +31,9 @@ No matching distribution found for mock-useragent==2018.12.10.3
 ```
 from mock_useragent import MockUserAgent
 
-m = MockUserAgent()
+ua = MockUserAgent()
 
-print(m.random_chrome)
+print(ua.random_chrome)
 
 ```
 
